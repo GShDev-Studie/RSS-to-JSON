@@ -20,7 +20,7 @@ app.get('/', function(req, res, next) {
       }
     });
   } else {
-    res.status(400).send({ 'error': 'feedURL is required' });
+    res.status(400).send({ 'error': 'feedURL is required!!' });
   }
 });
 
